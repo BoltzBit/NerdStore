@@ -21,7 +21,7 @@ public class ProdutoTests
                     new Dimensoes(1, 1, 1))
             );
         
-        Assert.Equal("O campo Nome do produto n�o pode estar vazio", ex.Message);
+        Assert.Equal("O campo Nome do produto não pode estar vazio", ex.Message);
 
         ex = Assert
             .Throws<DomainException>(() =>
@@ -35,7 +35,7 @@ public class ProdutoTests
                         new Dimensoes(1, 1, 1))
             );
 
-        Assert.Equal("O campo Descricao do produto n�o pode estar vazio", ex.Message);
+        Assert.Equal("O campo Descricao do produto não pode estar vazio", ex.Message);
 
         ex = Assert
             .Throws<DomainException>(() => 
@@ -50,7 +50,7 @@ public class ProdutoTests
                     new Dimensoes(1, 1, 1))
             );
         
-        Assert.Equal("O campo Valor do produto n�o pode se menor igual a 0", ex.Message);
+        Assert.Equal("O campo Valor do produto não pode se menor igual a 0", ex.Message);
 
         ex = Assert
             .Throws<DomainException>(() => 
@@ -65,7 +65,7 @@ public class ProdutoTests
                     new Dimensoes(1, 1, 1))
             );
         
-        Assert.Equal("O campo CategoriaId do produto n�o pode estar vazio", ex.Message);
+        Assert.Equal("O campo CategoriaId do produto não pode estar vazio", ex.Message);
 
         ex = Assert
             .Throws<DomainException>(() => 
@@ -80,8 +80,9 @@ public class ProdutoTests
                     new Dimensoes(1, 1, 1))
             );
 
-        Assert.Equal("O campo Imagem do produto n�o pode estar vazio", ex.Message);
-
+        Assert.Equal("O campo Imagem do produto não pode estar vazio", ex.Message);
+        
+        //testing value Object
         ex = Assert
             .Throws<DomainException>(() =>
                 new Produto(
@@ -95,6 +96,6 @@ public class ProdutoTests
                     new Dimensoes(0, 1, 1))
             );
         
-        Assert.Equal("O campo Altura n�o pode ser menor ou igual a 0", ex.Message);
+        Assert.Equal("O campo Altura não pode ser menor ou igual a 0", ex.Message);
     }
 }

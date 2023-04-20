@@ -27,11 +27,6 @@ public class ProdutoMapping : IEntityTypeConfiguration<Produto>
             .HasColumnType("varchar(250)");
 
         builder
-            .Property(p => p.Valor)
-            .IsRequired()
-            .HasColumnType("decimal");
-
-        builder
             .OwnsOne(p => p.Dimensoes, d =>
             {
                 d.Property(e => e.Altura)

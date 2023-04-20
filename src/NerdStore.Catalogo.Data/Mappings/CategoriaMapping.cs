@@ -17,11 +17,6 @@ public class CategoriaMapping : IEntityTypeConfiguration<Categoria>
             .HasColumnType("varchar(200)");
 
         builder
-            .Property(c => c.Codigo)
-            .IsRequired()
-            .HasColumnType("int");
-
-        builder
             .HasMany(c => c.Produtos)
             .WithOne(p => p.Categoria)
             .HasForeignKey(p => p.CategoriaId);
