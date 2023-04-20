@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace NerdStore.Core;
+namespace NerdStore.Core.DomainObjects;
 
 public class Validacoes
 {

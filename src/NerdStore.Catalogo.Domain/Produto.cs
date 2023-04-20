@@ -1,4 +1,4 @@
-﻿using NerdStore.Core;
+﻿using NerdStore.Core.DomainObjects;
 
 namespace NerdStore.Catalogo.Domain;
 
