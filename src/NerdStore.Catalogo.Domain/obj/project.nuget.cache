@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2058Mh1BVRmH355+6YEsZwnV8KcFnEVUPS5T2dfCdpDMpftWN89uEpz/L4c/B0E4q19bSFSqfDRjZvyVm4V9HQ==",
+  "dgSpecHash": "0lYMoR9+bO0OpLvISQRF2kxeuxaPWHIaFwyZmVbaDv9agCmUQt9I0Q1LrsXg+YrE+MVqRYXlSOEcfEr38O3t8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
