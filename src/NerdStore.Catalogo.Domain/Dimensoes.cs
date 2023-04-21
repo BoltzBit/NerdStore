@@ -4,10 +4,6 @@ namespace NerdStore.Catalogo.Domain;
 
 public class Dimensoes
 {
-    public decimal Altura { get; private set; }
-    public decimal Largura { get; private set; }
-    public decimal Profundidade { get; private set; }
-
     public Dimensoes(
         decimal altura,
         decimal largura,
@@ -21,6 +17,10 @@ public class Dimensoes
         Largura = largura;
         Profundidade = profundidade;
     }
+
+    public decimal Altura { get; }
+    public decimal Largura { get; }
+    public decimal Profundidade { get; }
 
     public string DescricaoFormatada()
     {

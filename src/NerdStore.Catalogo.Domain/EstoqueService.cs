@@ -1,13 +1,12 @@
-﻿using MediatR;
-using NerdStore.Catalogo.Domain.Events;
+﻿using NerdStore.Catalogo.Domain.Events;
 using NerdStore.Core.Bus;
 
 namespace NerdStore.Catalogo.Domain;
 
 public class EstoqueService : IEstoqueService
 {
-    private readonly IProdutoRepository _produtoRepository;
     private readonly IMediatrHandler _bus;
+    private readonly IProdutoRepository _produtoRepository;
 
     public EstoqueService(
         IProdutoRepository produtoRepository,
@@ -21,25 +20,17 @@ public class EstoqueService : IEstoqueService
     {
         var produto = await _produtoRepository.ObterPorId(produtoId);
 
-        if (produto is null)
-        {
-            return false;
-        }
+        if (produto is null) return false;
 
-        if (!produto.PossuiEstoque(quantidade))
-        {
-            return false;
-        }
-        
+        if (!produto.PossuiEstoque(quantidade)) return false;
+
         produto.DebitarEstoque(quantidade);
 
         if (produto.QuantidadeEstoque < 10)
-        {
             await _bus.PublicarEvento(new ProdutoAbaixoEstoqueEvent(produto.Id, produto.QuantidadeEstoque));
-        }
-        
+
         _produtoRepository.Atualizar(produto);
-        
+
         return await _produtoRepository.UnitOfWork.Commit();
     }
 
@@ -47,13 +38,10 @@ public class EstoqueService : IEstoqueService
     {
         var produto = await _produtoRepository.ObterPorId(produtoId);
 
-        if (produto is null)
-        {
-            return false;
-        }
-        
+        if (produto is null) return false;
+
         produto.ReporEstoque(quantidade);
-        
+
         _produtoRepository.Atualizar(produto);
 
         return await _produtoRepository.UnitOfWork.Commit();

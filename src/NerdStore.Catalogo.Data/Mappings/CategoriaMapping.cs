@@ -10,7 +10,7 @@ public class CategoriaMapping : IEntityTypeConfiguration<Categoria>
     {
         builder
             .HasKey(x => x.Id);
-        
+
         builder
             .Property(c => c.Nome)
             .IsRequired()

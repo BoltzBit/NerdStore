@@ -4,21 +4,10 @@ namespace NerdStore.Catalogo.Domain;
 
 public class Produto : Entity, IAggregateRoot
 {
-    public Guid CategoriaId { get; private set; }
-    public string Nome { get; private set; }
-    public string Descricao { get; private set; }
-    public bool Ativo { get; private set; }
-    public decimal Valor { get; private set; }
-    public DateTime DataCadastro { get; private set; }
-    public string Imagem { get; private set; }
-    public int QuantidadeEstoque { get; private set; }
-    public Dimensoes Dimensoes { get; private set; }
-    public Categoria Categoria { get; private set; }
-
     protected Produto()
     {
     }
-    
+
     public Produto(
         string nome,
         string descricao,
@@ -37,12 +26,30 @@ public class Produto : Entity, IAggregateRoot
         DataCadastro = dataCadastro;
         Imagem = imagem;
         Dimensoes = dimensoes;
-        
+
         Validar();
     }
 
-    public void Ativar() => Ativo = true;
-    public void Desativar() => Ativo = false;
+    public Guid CategoriaId { get; private set; }
+    public string Nome { get; }
+    public string Descricao { get; private set; }
+    public bool Ativo { get; private set; }
+    public decimal Valor { get; }
+    public DateTime DataCadastro { get; }
+    public string Imagem { get; }
+    public int QuantidadeEstoque { get; private set; }
+    public Dimensoes Dimensoes { get; }
+    public Categoria Categoria { get; private set; }
+
+    public void Ativar()
+    {
+        Ativo = true;
+    }
+
+    public void Desativar()
+    {
+        Ativo = false;
+    }
 
     public void AlterarCategoria(Categoria categoria)
     {
@@ -59,12 +66,9 @@ public class Produto : Entity, IAggregateRoot
     public void DebitarEstoque(int quantidade)
     {
         if (quantidade < 0) quantidade *= -1;
-        
-        if (!PossuiEstoque(quantidade))
-        {
-            throw new DomainException("Estoque insuficiente");
-        }
-        
+
+        if (!PossuiEstoque(quantidade)) throw new DomainException("Estoque insuficiente");
+
         QuantidadeEstoque -= quantidade;
     }
 

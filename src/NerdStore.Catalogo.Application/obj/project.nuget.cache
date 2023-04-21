@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "3RnAaETnTkXwR9y3ihM1ZlaH+/P2UdwanhSjURppbBUqa2tcE1XJmx8cPgiead9JRcdg5JzHhA6qTBfYLpgKMA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

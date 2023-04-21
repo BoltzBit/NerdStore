@@ -4,7 +4,10 @@ C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\net7.0\NerdStore.Catalogo.Domain.Tests.runtimeconfig.json
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\net7.0\NerdStore.Catalogo.Domain.Tests.dll
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\net7.0\NerdStore.Catalogo.Domain.Tests.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\net7.0\MediatR.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\net7.0\MediatR.Contracts.dll
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\net7.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll

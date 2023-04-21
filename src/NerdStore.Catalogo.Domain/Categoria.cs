@@ -4,15 +4,10 @@ namespace NerdStore.Catalogo.Domain;
 
 public class Categoria : Entity
 {
-    public string Nome { get; private set; }
-    public int Codigo { get; private set; }
-    
-    public IReadOnlyCollection<Produto> Produtos { get; private set; }
-
     protected Categoria()
     {
     }
-    
+
     public Categoria(
         string nome,
         int codigo)
@@ -20,6 +15,11 @@ public class Categoria : Entity
         Nome = nome;
         Codigo = codigo;
     }
+
+    public string Nome { get; }
+    public int Codigo { get; }
+
+    public IReadOnlyCollection<Produto> Produtos { get; private set; }
 
     public override string ToString()
     {
@@ -29,6 +29,6 @@ public class Categoria : Entity
     public void Validar()
     {
         Validacoes.ValidarSeVazio(Nome, "O campo Nome da categoria não pode estar vazio");
-        Validacoes.ValidarSeIgual(Codigo, 0,"O campo Codigo não pode ser 0");
+        Validacoes.ValidarSeIgual(Codigo, 0, "O campo Codigo não pode ser 0");
     }
 }

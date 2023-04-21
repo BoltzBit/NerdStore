@@ -1,6 +1,6 @@
-﻿using NerdStore.Catalogo.Domain;
+﻿using Microsoft.EntityFrameworkCore;
+using NerdStore.Catalogo.Domain;
 using NerdStore.Core.Data;
-using Microsoft.EntityFrameworkCore;
 
 namespace NerdStore.Catalogo.Data.Repository;
 

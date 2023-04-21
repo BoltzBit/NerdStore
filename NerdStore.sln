@@ -26,7 +26,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.Catalogo.Domain.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.Catalogo.Data", "src\NerdStore.Catalogo.Data\NerdStore.Catalogo.Data.csproj", "{F4C92D8A-12D2-4711-9DFB-96FAF1829930}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.Catalogo.Application", "NerdStore.Catalogo.Application\NerdStore.Catalogo.Application.csproj", "{4964F009-FD27-4AB6-B2B1-AC5413A5032C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.Catalogo.Application", "src\NerdStore.Catalogo.Application\NerdStore.Catalogo.Application.csproj", "{4964F009-FD27-4AB6-B2B1-AC5413A5032C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.Catalogo.WebApp.MVC", "src\NerdStore.Catalogo.WebApp.MVC\NerdStore.Catalogo.WebApp.MVC.csproj", "{3B09A378-24BF-4437-ACB7-771BDBCAFEF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +48,7 @@ Global
 		{EC72FFBA-B1E1-497E-B28A-E4D9D1B07AF6} = {879DE2BD-6988-44E8-BCA9-C1A694E01D5F}
 		{F4C92D8A-12D2-4711-9DFB-96FAF1829930} = {96ADA107-5F1B-4EFD-ADFB-B24F804365E4}
 		{4964F009-FD27-4AB6-B2B1-AC5413A5032C} = {96ADA107-5F1B-4EFD-ADFB-B24F804365E4}
+		{3B09A378-24BF-4437-ACB7-771BDBCAFEF4} = {91E6398C-952D-4ADE-99B9-CA87B75B4923}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{360AF7EE-8695-46F3-B6E4-6D8381C9D51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -68,5 +71,9 @@ Global
 		{4964F009-FD27-4AB6-B2B1-AC5413A5032C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4964F009-FD27-4AB6-B2B1-AC5413A5032C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4964F009-FD27-4AB6-B2B1-AC5413A5032C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B09A378-24BF-4437-ACB7-771BDBCAFEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B09A378-24BF-4437-ACB7-771BDBCAFEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B09A378-24BF-4437-ACB7-771BDBCAFEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B09A378-24BF-4437-ACB7-771BDBCAFEF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
