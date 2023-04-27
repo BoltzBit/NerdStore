@@ -4,22 +4,24 @@ namespace NerdStore.Catalogo.Domain;
 
 public class Categoria : Entity
 {
-    protected Categoria()
-    {
-    }
-
     public Categoria(
         string nome,
         int codigo)
     {
         Nome = nome;
         Codigo = codigo;
+        
+        Validar();
     }
 
-    public string Nome { get; }
-    public int Codigo { get; }
+    public string Nome { get; private set; }
+    public int Codigo { get; private set; }
 
     public IReadOnlyCollection<Produto> Produtos { get; private set; }
+    
+    protected Categoria()
+    {
+    }
 
     public override string ToString()
     {

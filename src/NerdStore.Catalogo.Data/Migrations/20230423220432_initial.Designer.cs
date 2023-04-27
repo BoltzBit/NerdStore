@@ -12,7 +12,7 @@ using NerdStore.Catalogo.Data;
 namespace NerdStore.Catalogo.Data.Migrations
 {
     [DbContext(typeof(CatalogoContext))]
-    [Migration("20230421144923_initial")]
+    [Migration("20230423220432_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -30,6 +30,9 @@ namespace NerdStore.Catalogo.Data.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Codigo")
+                        .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -52,6 +55,9 @@ namespace NerdStore.Catalogo.Data.Migrations
                     b.Property<Guid>("CategoriaId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Descricao")
                         .IsRequired()
                         .HasColumnType("varchar(500)");
@@ -66,6 +72,9 @@ namespace NerdStore.Catalogo.Data.Migrations
 
                     b.Property<int>("QuantidadeEstoque")
                         .HasColumnType("int");
+
+                    b.Property<decimal>("Valor")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 

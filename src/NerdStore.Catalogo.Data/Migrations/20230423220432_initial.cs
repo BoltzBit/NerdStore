@@ -20,7 +20,8 @@ namespace NerdStore.Catalogo.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Nome = table.Column<string>(type: "varchar(200)", nullable: false)
+                    Nome = table.Column<string>(type: "varchar(200)", nullable: false),
+                    Codigo = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -37,6 +38,8 @@ namespace NerdStore.Catalogo.Data.Migrations
                     Nome = table.Column<string>(type: "varchar(250)", nullable: false),
                     Descricao = table.Column<string>(type: "varchar(500)", nullable: false),
                     Ativo = table.Column<bool>(type: "bit", nullable: false),
+                    Valor = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    DataCadastro = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Imagem = table.Column<string>(type: "varchar(250)", nullable: false),
                     QuantidadeEstoque = table.Column<int>(type: "int", nullable: false),
                     DimensoesAltura = table.Column<int>(name: "Dimensoes_Altura", type: "int", nullable: false),

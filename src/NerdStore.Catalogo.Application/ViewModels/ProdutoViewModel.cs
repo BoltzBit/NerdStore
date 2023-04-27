@@ -43,5 +43,5 @@ public class ProdutoViewModel
     [Required(ErrorMessage = "O campo {0} é obrigatório")]
     public int Profundidade { get; set; }
 
-    public CategoriaViewModel Categoria { get; set; }
+    public IEnumerable<CategoriaViewModel>? Categorias { get; set; } = new List<CategoriaViewModel>();
 }
