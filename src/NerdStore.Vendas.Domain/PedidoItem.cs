@@ -40,6 +40,11 @@ public class PedidoItem : Entity
         Quantidade += unidades;
     }
 
+    internal void AtualizarUnidades(int unidades)
+    {
+        Quantidade = Quantidade;
+    }
+
     public override bool EhValido()
     {
         return true;
