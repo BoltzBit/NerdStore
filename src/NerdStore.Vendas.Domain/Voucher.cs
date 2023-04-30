@@ -15,5 +15,5 @@ public class Voucher : Entity
     public bool Ativo { get; private set; }
     public bool Utilizado { get; private set; }
     
-    public virtual ICollection<Pedido> Pedido { get; private set; }
+    public virtual ICollection<Pedido> Pedidos { get; private set; }
 }

@@ -1,21 +1,55 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using NerdStore.Core.Bus;
 using NerdStore.Core.Data;
 using NerdStore.Core.Messages;
+using NerdStore.Vendas.Domain;
 
 namespace NerdStore.Vendas.Data;
 
 public class VendasDbContext : DbContext, IUnitOfWork
 {
+    private readonly IMediatrHandler _mediator;
+    
     public VendasDbContext(
-        DbContextOptions<VendasDbContext> options)
+        DbContextOptions<VendasDbContext> options,
+        IMediatrHandler mediator)
         : base(options)
     {
-        
+        _mediator = mediator;
     }
-
+    
+    public DbSet<Pedido> Pedidos { get; set; }
+    public DbSet<PedidoItem> PedidoItems { get; set; }
+    public DbSet<Voucher> Vouchers { get; set; }
+    
     public async Task<bool> Commit()
     {
-        return true;
+        foreach (var entity in ChangeTracker
+                     .Entries()
+                     .Where(entry => entry
+                         .Entity
+                         .GetType()
+                         .GetProperty("DataCadastro") != null))
+        {
+            if (entity.State == EntityState.Added)
+            {
+                entity.Property("DataCadastro").CurrentValue = DateTime.Now;
+            }
+
+            if (entity.State == EntityState.Modified)
+            {
+                entity.Property("DataCadastro").IsModified = false;
+            }
+        }
+
+        var sucesso = await base.SaveChangesAsync() > 0;
+
+        if (sucesso)
+        {
+            await _mediator.PublicarEventos(this);
+        }
+
+        return sucesso;
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

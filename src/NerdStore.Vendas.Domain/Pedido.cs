@@ -2,7 +2,7 @@
 
 namespace NerdStore.Vendas.Domain;
 
-public class Pedido : Entity
+public class Pedido : Entity, IAggregateRoot
 {
     public int Codigo { get; private set; }
     public Guid ClienteId { get; private set; }
