@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GIk+cMeUsyn0LV4I9G2M9i6rnybNwsQ8MNtOReakGbRIDTM0LLVBINQKjmzrqU2yaG1irSZPgqzXP1l7YCdS3g==",
+  "dgSpecHash": "2vUJv5jAfEfMAdEcN9eSeEob9DyYRuEcnjkoGXhaAvUrr07Hg778tnfcOL0rabyDzHX5M9tq5ytiVYAZvccsEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateus.silva\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

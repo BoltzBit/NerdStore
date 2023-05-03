@@ -187,6 +187,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.0.1, )"

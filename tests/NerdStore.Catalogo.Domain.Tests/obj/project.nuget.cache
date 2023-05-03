@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PIUHLRku3edHL+z9j5TcLlOd/L7ihJkn0/Rkt5GowM4hKUbZ2VrkxwCXQA8WeTe2uL9/yKiI9kLxKFz6SFlMuw==",
+  "dgSpecHash": "I3sD/7FUGUD8+Jdsr0zZ59H9Syyfqj/4x+p1VaotDaqtbDhbBLTPR0S+lM1RksmAxf+QZ6JGj6Mr7RKc3DlCoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\tests\\NerdStore.Catalogo.Domain.Tests\\NerdStore.Catalogo.Domain.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

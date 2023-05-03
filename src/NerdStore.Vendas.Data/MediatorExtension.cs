@@ -1,11 +1,11 @@
-﻿using NerdStore.Core.Bus;
+﻿using NerdStore.Core.Communication.Mediator;
 using NerdStore.Core.DomainObjects;
 
 namespace NerdStore.Vendas.Data;
 
 public static class MediatorExtension
 {
-    public static async Task PublicarEventos(this IMediatrHandler mediatorHandler, VendasDbContext context)
+    public static async Task PublicarEventos(this IMediatorHandler mediatorHandler, VendasDbContext context)
     {
         var domainEntities = context
             .ChangeTracker

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FZmyZSw9Cu9jK6WIycuRbIxjhjTw4anlT99Hs49E94Ht+vQy1gbVamQNoDHX9HqYK1ieBDJQ08n8m6274pULug==",
+  "dgSpecHash": "c7fVQhoE2b+qWzZ6ZxzTJRIbDs2x1MI+YSsUlFYwKJDxUWjTt0voH5SqPrTmWukOCbnTUfPtuGaIs1CLv6xWiA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Catalogo.WebApp.MVC\\NerdStore.Catalogo.WebApp.MVC.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\mateus.silva\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

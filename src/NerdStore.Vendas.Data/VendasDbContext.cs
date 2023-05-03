@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NerdStore.Core.Bus;
+using NerdStore.Core.Communication.Mediator;
 using NerdStore.Core.Data;
 using NerdStore.Core.Messages;
 using NerdStore.Vendas.Domain;
@@ -8,11 +8,11 @@ namespace NerdStore.Vendas.Data;
 
 public class VendasDbContext : DbContext, IUnitOfWork
 {
-    private readonly IMediatrHandler _mediator;
+    private readonly IMediatorHandler _mediator;
     
     public VendasDbContext(
         DbContextOptions<VendasDbContext> options,
-        IMediatrHandler mediator)
+        IMediatorHandler mediator)
         : base(options)
     {
         _mediator = mediator;

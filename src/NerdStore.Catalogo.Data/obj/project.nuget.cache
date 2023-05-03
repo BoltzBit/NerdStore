@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9AM2r6Wp/wReOLJMBw9M9Hj1pj8P2AqjXqltXVa5icy37mO5TZbhBtcfh93A6f9JLzCnLMWL1YgUclIYCD7/Pw==",
+  "dgSpecHash": "ElPVwuCvNcHBoazdLUg4pzccOK3Wz4YGIuy+ngu07yxKna2q1g+e5X+NbzNVQ4v8LciYL5j95KDS+zVv94A/3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateus.silva\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

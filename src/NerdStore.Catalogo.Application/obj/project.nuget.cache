@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3RnAaETnTkXwR9y3ihM1ZlaH+/P2UdwanhSjURppbBUqa2tcE1XJmx8cPgiead9JRcdg5JzHhA6qTBfYLpgKMA==",
+  "dgSpecHash": "w0lEd6NAfAKlGEr4A2Oar62CNw424hZJQxRzpYIrwVY/Cf2o3WRmeK2V5K1gmlqw0cz0EBYWd7xALaXd4jfPZw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateus.silva\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

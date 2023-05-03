@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Lqz6lXHnj6gfa1iKs2LoinNohsUm16k822g0q1wrpTgjTQ8HxV59h7Bb8xTVet4FoOcY4kQavUt57ZCfu8oNIw==",
+  "dgSpecHash": "1n919ivX2ThD/oJZ4k+CqQkWhXYBoorGaRKfQ72jEsRBqvKninUP7KlrGGXPoszvW4lCo8ZrMsY3NuCRD8NF/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"

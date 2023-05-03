@@ -14,7 +14,7 @@ public class Pedido : Entity, IAggregateRoot
     public PedidoStatus PedidoStatus { get; private set; }
 
     private readonly List<PedidoItem> _pedidoItems;
-    public IReadOnlyCollection<PedidoItem> PedidoItems => _pedidoItems;
+    public IReadOnlyCollection<PedidoItem?> PedidoItems => _pedidoItems;
     
     public virtual Voucher Voucher { get; private set; }
 
