@@ -94,3 +94,7 @@ C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\obj\Debug\net7.0\NerdStore.Catalogo.WebApp.MVC.pdb
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\obj\Debug\net7.0\NerdStore.Catalogo.WebApp.MVC.genruntimeconfig.cache
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\obj\Debug\net7.0\ref\NerdStore.Catalogo.WebApp.MVC.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Vendas.Data.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Vendas.Domain.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Vendas.Data.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Vendas.Domain.pdb

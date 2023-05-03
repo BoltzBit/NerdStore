@@ -18,7 +18,8 @@
           "NerdStore.Catalogo.Application": "1.0.0",
           "NerdStore.Catalogo.Data": "1.0.0",
           "NerdStore.Catalogo.Domain": "1.0.0",
-          "NerdStore.Core": "1.0.0"
+          "NerdStore.Core": "1.0.0",
+          "NerdStore.Vendas.Data": "1.0.0"
         },
         "runtime": {
           "NerdStore.Catalogo.WebApp.MVC.dll": {}
@@ -797,6 +798,26 @@
         "runtime": {
           "NerdStore.Core.dll": {}
         }
+      },
+      "NerdStore.Vendas.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
+          "NerdStore.Catalogo.Domain": "1.0.0",
+          "NerdStore.Vendas.Domain": "1.0.0"
+        },
+        "runtime": {
+          "NerdStore.Vendas.Data.dll": {}
+        }
+      },
+      "NerdStore.Vendas.Domain/1.0.0": {
+        "dependencies": {
+          "NerdStore.Core": "1.0.0"
+        },
+        "runtime": {
+          "NerdStore.Vendas.Domain.dll": {}
+        }
       }
     }
   },
@@ -1382,6 +1403,16 @@
       "sha512": ""
     },
     "NerdStore.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NerdStore.Vendas.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NerdStore.Vendas.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

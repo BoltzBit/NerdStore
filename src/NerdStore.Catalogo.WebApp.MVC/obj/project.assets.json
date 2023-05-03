@@ -1418,6 +1418,36 @@
         "runtime": {
           "bin/placeholder/NerdStore.Core.dll": {}
         }
+      },
+      "NerdStore.Vendas.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
+          "NerdStore.Catalogo.Domain": "1.0.0",
+          "NerdStore.Vendas.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NerdStore.Vendas.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NerdStore.Vendas.Data.dll": {}
+        }
+      },
+      "NerdStore.Vendas.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "NerdStore.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NerdStore.Vendas.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NerdStore.Vendas.Domain.dll": {}
+        }
       }
     }
   },
@@ -4092,6 +4122,16 @@
       "type": "project",
       "path": "../NerdStore.Core/NerdStore.Core.csproj",
       "msbuildProject": "../NerdStore.Core/NerdStore.Core.csproj"
+    },
+    "NerdStore.Vendas.Data/1.0.0": {
+      "type": "project",
+      "path": "../NerdStore.Vendas.Data/NerdStore.Vendas.Data.csproj",
+      "msbuildProject": "../NerdStore.Vendas.Data/NerdStore.Vendas.Data.csproj"
+    },
+    "NerdStore.Vendas.Domain/1.0.0": {
+      "type": "project",
+      "path": "../NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj",
+      "msbuildProject": "../NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4106,7 +4146,8 @@
       "NerdStore.Catalogo.Application >= 1.0.0",
       "NerdStore.Catalogo.Data >= 1.0.0",
       "NerdStore.Catalogo.Domain >= 1.0.0",
-      "NerdStore.Core >= 1.0.0"
+      "NerdStore.Core >= 1.0.0",
+      "NerdStore.Vendas.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4147,6 +4188,9 @@
             },
             "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
               "projectPath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+            },
+            "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj": {
+              "projectPath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj"
             }
           }
         }
