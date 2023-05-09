@@ -98,3 +98,6 @@ C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Vendas.Domain.dll
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Vendas.Data.pdb
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Vendas.Domain.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Vendas.Application.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Vendas.Application.pdb

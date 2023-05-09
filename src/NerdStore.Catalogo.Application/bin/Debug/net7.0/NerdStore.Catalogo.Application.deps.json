@@ -26,6 +26,14 @@
           }
         }
       },
+      "FluentValidation/11.5.2": {
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.5.2.0"
+          }
+        }
+      },
       "MediatR/12.0.1": {
         "dependencies": {
           "MediatR.Contracts": "2.0.1",
@@ -66,6 +74,7 @@
       },
       "NerdStore.Core/1.0.0": {
         "dependencies": {
+          "FluentValidation": "11.5.2",
           "MediatR": "12.0.1"
         },
         "runtime": {
@@ -86,6 +95,13 @@
       "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
       "path": "automapper/12.0.1",
       "hashPath": "automapper.12.0.1.nupkg.sha512"
+    },
+    "FluentValidation/11.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kj/hW/iusp2zq1Vt1YPLgDj6UG0DhoJXGkLwjLwm3j7vUtRF8DVA5vHJfItG3BxDjLWJUR2pvw8fK7rnuysZNA==",
+      "path": "fluentvalidation/11.5.2",
+      "hashPath": "fluentvalidation.11.5.2.nupkg.sha512"
     },
     "MediatR/12.0.1": {
       "type": "package",

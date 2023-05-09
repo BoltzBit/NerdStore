@@ -101,3 +101,4 @@ C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\obj\Debug\net7.0\NerdStore.Catalogo.Domain.Tests.pdb
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\obj\Debug\net7.0\NerdStore.Catalogo.Domain.Tests.genruntimeconfig.cache
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\obj\Debug\net7.0\ref\NerdStore.Catalogo.Domain.Tests.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\net7.0\FluentValidation.dll

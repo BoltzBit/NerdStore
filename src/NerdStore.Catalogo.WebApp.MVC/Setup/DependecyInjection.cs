@@ -7,6 +7,7 @@ using NerdStore.Catalogo.Domain.Events;
 using NerdStore.Core.Communication.Mediator;
 using NerdStore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Vendas.Data;
+using NerdStore.Vendas.Data.Repository;
 using NerdStore.Vendas.Domain;
 
 namespace NerdStore.Catalogo.WebApp.MVC.Setup;
@@ -20,7 +21,7 @@ public static class DependecyInjection
         services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();
 
         services.AddScoped<IProdutoRepository, ProdutoRepository>();
-        services.AddScoped<IPedidoRepository, IPedidoRepository>();
+        services.AddScoped<IPedidoRepository, PedidoRepository>();
 
         services.AddScoped<IProdutoAppService, ProdutoAppService>();
         services.AddScoped<IEstoqueService, EstoqueService>();
