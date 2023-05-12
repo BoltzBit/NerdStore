@@ -7,6 +7,7 @@ using NerdStore.Catalogo.Domain.Events;
 using NerdStore.Core.Communication.Mediator;
 using NerdStore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Vendas.Application.Events;
+using NerdStore.Vendas.Application.Queries;
 using NerdStore.Vendas.Data;
 using NerdStore.Vendas.Data.Repository;
 using NerdStore.Vendas.Domain;
@@ -29,6 +30,7 @@ public static class DependecyInjection
         
         //Vendas
         services.AddScoped<INotificationHandler<PedidoRascunhoIniciadoEvent>, PedidoEventHandler>();
+        services.AddScoped<IPedidoQueries, PedidoQueries>();
 
         services.AddScoped<CatalogoContext>();
         services.AddScoped<VendasDbContext>();
