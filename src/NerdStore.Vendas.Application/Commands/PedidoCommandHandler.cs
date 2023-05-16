@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using NerdStore.Core.Communication.Mediator;
+using NerdStore.Core.DomainObjects;
 using NerdStore.Core.Messages;
 using NerdStore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Vendas.Application.Events;
@@ -7,8 +8,11 @@ using NerdStore.Vendas.Domain;
 
 namespace NerdStore.Vendas.Application.Commands;
 
-public class PedidoCommandHandler
-    : IRequestHandler<AdicionarItemPedidoCommand, bool>
+public class PedidoCommandHandler : 
+    IRequestHandler<AdicionarItemPedidoCommand, bool>,
+    IRequestHandler<AtualizarItemPedidoCommand, bool>,
+    IRequestHandler<RemoverItemPedidoCommand, bool>,
+    IRequestHandler<AplicarVoucherPedidoCommand, bool>
 {
     private readonly IPedidoRepository _pedidoRepository;
     private readonly IMediatorHandler _mediator;
@@ -76,6 +80,136 @@ public class PedidoCommandHandler
             message.ValorUnitario,
             message.Quantidade));
 
+        return await _pedidoRepository.UnitOfWork.Commit();
+    }
+
+    public async Task<bool> Handle(
+        AtualizarItemPedidoCommand message,
+        CancellationToken cancellationToken)
+    {
+        if (!ValidarComando(message)) return false;
+
+        var pedido = await _pedidoRepository.ObterPedidoRascunhoPorClienteId(message.ClienteId);
+
+        if (pedido is null)
+        {
+            await _mediator.PublicarNotificacao(new DomainNotification("pedido", "Pedido nao econtrado!"));
+            return false;
+        }
+
+        var pedidoItem = await _pedidoRepository.ObterItemPorPedido(pedido.Id, message.ProdutoId);
+
+        if (!pedido.PedidoItemExistente(pedidoItem))
+        {
+            await _mediator.PublicarNotificacao(new DomainNotification("pedido", "Pedido nao encontrado"));
+            return false;
+        }
+        
+        pedido.AtualizarUnidades(pedidoItem, message.Quantidade);
+
+        pedido.AdicionarEvento(new PedidoAtualizadoEvent(
+            pedido.ClienteId,
+            pedido.Id,
+            pedido.ValorTotal));
+        
+        pedido.AdicionarEvento(new PedidoProdutoAtualizadoEvent(
+            message.ClienteId,
+            pedido.Id,
+            message.ProdutoId,
+            message.Quantidade));
+        
+        _pedidoRepository.AtualizarItem(pedidoItem);
+        _pedidoRepository.AtualizarPedido(pedido);
+
+        return await _pedidoRepository.UnitOfWork.Commit();
+    }
+
+    public async Task<bool> Handle(
+        RemoverItemPedidoCommand message,
+        CancellationToken cancellationToken)
+    {
+        if (!ValidarComando(message)) return false;
+
+        var pedido = await _pedidoRepository.ObterPedidoRascunhoPorClienteId(message.ClienteId);
+
+        if (pedido is null)
+        {
+            await _mediator.PublicarNotificacao(new DomainNotification("pedido", "Pedido nao encontrado!"));
+            return false;
+        }
+
+        var pedidoItem = await _pedidoRepository.ObterItemPorPedido(pedido.Id, message.ProdutoId);
+
+        if (pedidoItem is not null && pedido.PedidoItemExistente(pedidoItem))
+        {
+            await _mediator.PublicarNotificacao(new DomainNotification("pedido", "Item do pedido nao encontrado!"));
+            return false;
+        }
+        
+        pedido.RemoverItem(pedidoItem);
+        
+        pedido.AdicionarEvento(new PedidoAtualizadoEvent(
+            pedido.ClienteId,
+            pedido.Id,
+            pedido.ValorTotal));
+        
+        pedido.AdicionarEvento(new PedidoProdutoRemovidoEvent(
+            message.ClienteId,
+            pedido.Id,
+            message.ProdutoId));
+        
+        _pedidoRepository.RemoverItem(pedidoItem);
+        _pedidoRepository.AtualizarPedido(pedido);
+
+        return await _pedidoRepository.UnitOfWork.Commit();
+    }
+
+    public async Task<bool> Handle(
+        AplicarVoucherPedidoCommand message,
+        CancellationToken cancellationToken)
+    {
+        if (!ValidarComando(message)) return false;
+
+        var pedido = await _pedidoRepository.ObterPedidoRascunhoPorClienteId(message.ClienteId);
+
+        if (pedido is null)
+        {
+            await _mediator.PublicarNotificacao(new DomainNotification("pedido", "Pedido nao encontrado!"));
+            return false;
+        }
+
+        var voucher = await _pedidoRepository.ObterVoucherPorCodigo(message.CodigoVoucher);
+
+        if (voucher is null)
+        {
+            await _mediator.PublicarNotificacao(new DomainNotification("pedido", "Voucher nao encontrado!"));
+            return false;
+        }
+
+        var voucherAplicavelValidation = pedido.AplicarVoucher(voucher);
+
+        if (!voucherAplicavelValidation.IsValid)
+        {
+            foreach (var error in voucherAplicavelValidation.Errors)
+            {
+                await _mediator.PublicarNotificacao(new DomainNotification(error.ErrorCode, error.ErrorMessage));
+            }
+
+            return false;
+        }
+        
+        pedido.AdicionarEvento(new PedidoAtualizadoEvent(
+            pedido.ClienteId,
+            pedido.Id,
+            pedido.ValorTotal));
+        
+        pedido.AdicionarEvento(new VoucherAplicadoPedidoEvent(
+            message.ClienteId,
+            pedido.Id,
+            voucher.Id));
+        
+        _pedidoRepository.AtualizarPedido(pedido);
+        
         return await _pedidoRepository.UnitOfWork.Commit();
     }
 
