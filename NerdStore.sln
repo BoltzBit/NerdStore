@@ -36,6 +36,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.Vendas.Data", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.Vendas.Domain", "src\NerdStore.Vendas.Domain\NerdStore.Vendas.Domain.csproj", "{71334906-2A5C-4F5A-A70E-93D57A10E049}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.Pagamentos.AntiCorruption", "src\NerdStore.Pagamentos.AntiCorruption\NerdStore.Pagamentos.AntiCorruption.csproj", "{547B00F6-96E9-4E82-BAD6-760CAB771A1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.Pagamentos.Business", "src\NerdStore.Pagamentos.Business\NerdStore.Pagamentos.Business.csproj", "{B8B402A4-6303-4257-8C6E-6D69C8400DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.Pagamentos.Data", "src\NerdStore.Pagamentos.Data\NerdStore.Pagamentos.Data.csproj", "{D3A162D3-1A64-48F9-91A7-C463AB777669}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +64,9 @@ Global
 		{3DBC0037-99B1-47C9-A490-1F9163259737} = {E1CF63E7-D091-417A-A800-ABC663DC2961}
 		{3EC38965-0C92-4DAB-8A57-F432343DB23F} = {E1CF63E7-D091-417A-A800-ABC663DC2961}
 		{71334906-2A5C-4F5A-A70E-93D57A10E049} = {E1CF63E7-D091-417A-A800-ABC663DC2961}
+		{547B00F6-96E9-4E82-BAD6-760CAB771A1F} = {3EC7CDA6-37AD-47D5-BA59-F1242E99C584}
+		{B8B402A4-6303-4257-8C6E-6D69C8400DD4} = {3EC7CDA6-37AD-47D5-BA59-F1242E99C584}
+		{D3A162D3-1A64-48F9-91A7-C463AB777669} = {3EC7CDA6-37AD-47D5-BA59-F1242E99C584}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{360AF7EE-8695-46F3-B6E4-6D8381C9D51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -96,5 +105,17 @@ Global
 		{71334906-2A5C-4F5A-A70E-93D57A10E049}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71334906-2A5C-4F5A-A70E-93D57A10E049}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71334906-2A5C-4F5A-A70E-93D57A10E049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{547B00F6-96E9-4E82-BAD6-760CAB771A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547B00F6-96E9-4E82-BAD6-760CAB771A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547B00F6-96E9-4E82-BAD6-760CAB771A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547B00F6-96E9-4E82-BAD6-760CAB771A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B402A4-6303-4257-8C6E-6D69C8400DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B402A4-6303-4257-8C6E-6D69C8400DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B402A4-6303-4257-8C6E-6D69C8400DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B402A4-6303-4257-8C6E-6D69C8400DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A162D3-1A64-48F9-91A7-C463AB777669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A162D3-1A64-48F9-91A7-C463AB777669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A162D3-1A64-48F9-91A7-C463AB777669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A162D3-1A64-48F9-91A7-C463AB777669}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
