@@ -19,6 +19,7 @@
           "NerdStore.Catalogo.Data": "1.0.0",
           "NerdStore.Catalogo.Domain": "1.0.0",
           "NerdStore.Core": "1.0.0",
+          "NerdStore.Pagamentos.Data": "1.0.0",
           "NerdStore.Vendas.Application": "1.0.0",
           "NerdStore.Vendas.Data": "1.0.0"
         },
@@ -809,6 +810,26 @@
           "NerdStore.Core.dll": {}
         }
       },
+      "NerdStore.Pagamentos.Business/1.0.0": {
+        "dependencies": {
+          "NerdStore.Core": "1.0.0"
+        },
+        "runtime": {
+          "NerdStore.Pagamentos.Business.dll": {}
+        }
+      },
+      "NerdStore.Pagamentos.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
+          "NerdStore.Core": "1.0.0",
+          "NerdStore.Pagamentos.Business": "1.0.0"
+        },
+        "runtime": {
+          "NerdStore.Pagamentos.Data.dll": {}
+        }
+      },
       "NerdStore.Vendas.Application/1.0.0": {
         "dependencies": {
           "NerdStore.Core": "1.0.0",
@@ -1429,6 +1450,16 @@
       "sha512": ""
     },
     "NerdStore.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NerdStore.Pagamentos.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NerdStore.Pagamentos.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

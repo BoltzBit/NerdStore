@@ -4,6 +4,7 @@ using NerdStore.Catalogo.Application.AutoMapper;
 using NerdStore.Catalogo.Data;
 using NerdStore.Catalogo.WebApp.MVC.Data;
 using NerdStore.Catalogo.WebApp.MVC.Setup;
+using NerdStore.Pagamentos.Data;
 using NerdStore.Vendas.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,9 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
                        throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(connectionString));
+
+builder.Services.AddDbContext<PagamentoContext>(options => 
     options.UseSqlServer(connectionString));
 
 builder.Services.AddDbContext<VendasDbContext>(options =>

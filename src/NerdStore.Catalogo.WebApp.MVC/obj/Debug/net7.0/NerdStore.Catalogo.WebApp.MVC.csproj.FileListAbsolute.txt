@@ -101,3 +101,7 @@ C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\FluentValidation.dll
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Vendas.Application.dll
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Vendas.Application.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Pagamentos.Business.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Pagamentos.Data.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Pagamentos.Data.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Pagamentos.Business.pdb

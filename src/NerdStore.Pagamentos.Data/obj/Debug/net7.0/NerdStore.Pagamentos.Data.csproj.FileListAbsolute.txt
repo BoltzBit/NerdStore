@@ -1,0 +1,17 @@
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\bin\Debug\net7.0\NerdStore.Pagamentos.Data.deps.json
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\bin\Debug\net7.0\NerdStore.Pagamentos.Data.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\bin\Debug\net7.0\NerdStore.Pagamentos.Data.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\bin\Debug\net7.0\NerdStore.Core.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\bin\Debug\net7.0\NerdStore.Pagamentos.Business.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\bin\Debug\net7.0\NerdStore.Core.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\bin\Debug\net7.0\NerdStore.Pagamentos.Business.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\net7.0\NerdStore.Pagamentos.Data.csproj.AssemblyReference.cache
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\net7.0\NerdStore.Pagamentos.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\net7.0\NerdStore.Pagamentos.Data.AssemblyInfoInputs.cache
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\net7.0\NerdStore.Pagamentos.Data.AssemblyInfo.cs
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\net7.0\NerdStore.Pagamentos.Data.csproj.CoreCompileInputs.cache
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\net7.0\NerdStore.Pagamentos.Data.csproj.CopyComplete
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\net7.0\NerdStore.Pagamentos.Data.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\net7.0\refint\NerdStore.Pagamentos.Data.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\net7.0\NerdStore.Pagamentos.Data.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Pagamentos.Data\obj\Debug\net7.0\ref\NerdStore.Pagamentos.Data.dll
