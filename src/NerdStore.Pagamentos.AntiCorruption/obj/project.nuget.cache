@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "P5GYXSl3HVnTLHeiHwK7kQ+zobxBd94xK6Dg3t9TAzs3PL+Cm+nR7QOv9ueB/aVq4vMMzaF5JSPP9DHUlB+kXQ==",
+  "dgSpecHash": "CKjcpQ27mF2YVzEnjsvzFLQZ8eIaHUYlZ4CHhRTjAB2X2u5RU5daqqFJxk+9nRxay4So8Yf2MyIafhJ37oomGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

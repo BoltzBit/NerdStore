@@ -4,22 +4,10 @@ namespace NerdStore.Pagamentos.Business;
 
 public class Transacao : Entity
 {
-    public Guid PedidoId { get; private set; }
-    public Guid PagamentoId { get; private set; }
-    public decimal Total { get; private set; }
-    public StatusTransacao StatusTransacao { get; private set; }
+    public Guid PedidoId { get; set; }
+    public Guid PagamentoId { get; set; }
+    public decimal Total { get; set; }
+    public StatusTransacao StatusTransacao { get; set; }
     
-    public virtual Pagamento Pagamento { get; private set; }
-
-    public Transacao(
-        Guid pedidoId,
-        Guid pagamentoId,
-        decimal total,
-        StatusTransacao statusTransacao)
-    {
-        PedidoId = pedidoId;
-        PagamentoId = pagamentoId;
-        Total = total;
-        StatusTransacao = statusTransacao;
-    }
+    public virtual Pagamento Pagamento { get; set; }
 }
