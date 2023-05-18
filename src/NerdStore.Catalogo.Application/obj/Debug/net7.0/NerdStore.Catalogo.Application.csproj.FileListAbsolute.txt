@@ -1,0 +1,17 @@
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\bin\Debug\net7.0\NerdStore.Catalogo.Application.deps.json
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\bin\Debug\net7.0\NerdStore.Catalogo.Application.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\bin\Debug\net7.0\NerdStore.Catalogo.Application.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\bin\Debug\net7.0\NerdStore.Catalogo.Domain.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\bin\Debug\net7.0\NerdStore.Core.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\bin\Debug\net7.0\NerdStore.Catalogo.Domain.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\bin\Debug\net7.0\NerdStore.Core.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\net7.0\NerdStore.Catalogo.Application.csproj.AssemblyReference.cache
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\net7.0\NerdStore.Catalogo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\net7.0\NerdStore.Catalogo.Application.AssemblyInfoInputs.cache
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\net7.0\NerdStore.Catalogo.Application.AssemblyInfo.cs
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\net7.0\NerdStore.Catalogo.Application.csproj.CoreCompileInputs.cache
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\net7.0\NerdStore.Catalogo.Application.csproj.CopyComplete
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\net7.0\NerdStore.Catalogo.Application.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\net7.0\refint\NerdStore.Catalogo.Application.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\net7.0\NerdStore.Catalogo.Application.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\net7.0\ref\NerdStore.Catalogo.Application.dll
