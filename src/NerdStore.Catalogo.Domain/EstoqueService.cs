@@ -62,17 +62,38 @@ public class EstoqueService : IEstoqueService
         return true;
     }
 
+    public async Task<bool> ReporListaProdutosPedido(ListaProdutosPedido listaProdutosPedido)
+    {
+        foreach (var produto in listaProdutosPedido.Itens)
+        {
+            await ReporItemEstoque(produto.Id, produto.Quantidade);
+        }
+
+        return await _produtoRepository.UnitOfWork.Commit();
+    }
+    
     public async Task<bool> ReporEstoque(Guid produtoId, int quantidade)
+    {
+        var sucesso = await ReporItemEstoque(produtoId, quantidade);
+
+        if (!sucesso) return false;
+
+        return await _produtoRepository.UnitOfWork.Commit();
+    }
+
+    private async Task<bool> ReporItemEstoque(
+        Guid produtoId,
+        int quantidade)
     {
         var produto = await _produtoRepository.ObterPorId(produtoId);
 
         if (produto is null) return false;
-
+        
         produto.ReporEstoque(quantidade);
-
+        
         _produtoRepository.Atualizar(produto);
 
-        return await _produtoRepository.UnitOfWork.Commit();
+        return true;
     }
 
     public void Dispose()
