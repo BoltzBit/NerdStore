@@ -1,10 +1,12 @@
-﻿using MediatR;
+﻿using EventSourcing;
+using MediatR;
 using NerdStore.Catalogo.Application.Services;
 using NerdStore.Catalogo.Data;
 using NerdStore.Catalogo.Data.Repository;
 using NerdStore.Catalogo.Domain;
 using NerdStore.Catalogo.Domain.Events;
 using NerdStore.Core.Communication.Mediator;
+using NerdStore.Core.Data.EventSourcing;
 using NerdStore.Core.Messages.CommonMessages.IntegrationEvents;
 using NerdStore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Pagamentos.AntiCorruption;
@@ -34,6 +36,10 @@ public static class DependecyInjection
         services.AddScoped<IProdutoAppService, ProdutoAppService>();
         services.AddScoped<IEstoqueService, EstoqueService>();
         
+        //Event Sourcing
+        services.AddScoped<IEventStoreService, EventStoreService>();
+        services.AddScoped<IEventSourcingRepository, EventSourcingRepository>();
+        
         //Vendas
         services.AddScoped<IPedidoRepository, PedidoRepository>();
         services.AddScoped<IPedidoQueries, PedidoQueries>();
@@ -49,8 +55,8 @@ public static class DependecyInjection
         
         services.AddScoped<INotificationHandler<PedidoRascunhoIniciadoEvent>, PedidoEventHandler>();
         services.AddScoped<INotificationHandler<PedidoEstoqueRejeitadoEvent>, PedidoEventHandler>();
-        services.AddScoped<INotificationHandler<PagamentoRealizadoEvent>, PedidoEventHandler>();
-        services.AddScoped<INotificationHandler<PagamentoRecusadoEvent>, PedidoEventHandler>();
+        services.AddScoped<INotificationHandler<PedidoPagamentoRealizadoEvent>, PedidoEventHandler>();
+        services.AddScoped<INotificationHandler<PedidoPagamentoRecusadoEvent>, PedidoEventHandler>();
         
         //Pagamento
         services.AddScoped<IPagamentoRepository, PagamentoRepository>();

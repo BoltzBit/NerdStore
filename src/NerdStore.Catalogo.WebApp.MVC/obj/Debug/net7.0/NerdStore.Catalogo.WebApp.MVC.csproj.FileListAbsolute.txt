@@ -105,3 +105,11 @@ C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Pagamentos.Data.dll
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Pagamentos.Data.pdb
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Pagamentos.Business.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Pagamentos.AntiCorruption.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\NerdStore.Pagamentos.AntiCorruption.pdb
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\EventStore.ClientAPI.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\protobuf-net.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\protobuf-net.Core.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\EventSourcing.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\src\NerdStore.Catalogo.WebApp.MVC\bin\Debug\net7.0\EventSourcing.pdb
