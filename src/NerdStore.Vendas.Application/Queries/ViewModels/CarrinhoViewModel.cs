@@ -10,4 +10,5 @@ public class CarrinhoViewModel
     public string VoucherCodigo { get; set; }
 
     public List<CarrinhoItemViewModel> Items { get; set; } = new();
+    public CarrinhoPagamentoViewModel Pagamento { get; set; }
 }

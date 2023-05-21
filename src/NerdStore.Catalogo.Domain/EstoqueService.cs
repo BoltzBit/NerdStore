@@ -52,7 +52,7 @@ public class EstoqueService : IEstoqueService
 
         if (produto.QuantidadeEstoque < 10)
         {
-            await _mediatorHandler.PublicarEvento(new ProdutoAbaixoEstoqueEvent(
+            await _mediatorHandler.PublicarDomainEvent(new ProdutoAbaixoEstoqueEvent(
                 produto.Id,
                 produto.QuantidadeEstoque));
         }

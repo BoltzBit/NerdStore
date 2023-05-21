@@ -10,8 +10,8 @@ public class PedidoEventHandler :
     INotificationHandler<PedidoAtualizadoEvent>,
     INotificationHandler<PedidoItemAdicionadoEvent>,
     INotificationHandler<PedidoEstoqueRejeitadoEvent>,
-    INotificationHandler<PagamentoRealizadoEvent>,
-    INotificationHandler<PagamentoRecusadoEvent>
+    INotificationHandler<PedidoPagamentoRealizadoEvent>,
+    INotificationHandler<PedidoPagamentoRecusadoEvent>
 {
     private readonly IMediatorHandler _mediatorHandler;
 
@@ -49,14 +49,14 @@ public class PedidoEventHandler :
     }
 
     public Task Handle(
-        PagamentoRealizadoEvent message,
+        PedidoPagamentoRealizadoEvent message,
         CancellationToken cancellationToken)
     {
         return Task.CompletedTask;
     }
 
     public Task Handle(
-        PagamentoRecusadoEvent message, 
+        PedidoPagamentoRecusadoEvent message, 
         CancellationToken cancellationToken)
     {
         return Task.CompletedTask;

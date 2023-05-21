@@ -10,6 +10,6 @@ public class TransacaoMapping : IEntityTypeConfiguration<Transacao>
     {
         builder.HasKey(t => t.Id);
 
-        builder.ToTable("pagamentos", "Transacao");
+        builder.ToTable("Transacao", "pagamentos");
     }
 }

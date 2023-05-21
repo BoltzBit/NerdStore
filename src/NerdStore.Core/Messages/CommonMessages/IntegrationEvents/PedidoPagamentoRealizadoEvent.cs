@@ -1,6 +1,6 @@
 ﻿namespace NerdStore.Core.Messages.CommonMessages.IntegrationEvents;
 
-public class PagamentoRealizadoEvent : IntegrationEvent
+public class PedidoPagamentoRealizadoEvent : IntegrationEvent
 {
     public Guid PedidoId { get; private set; }
     public Guid ClienteId { get; private set; }
@@ -8,7 +8,7 @@ public class PagamentoRealizadoEvent : IntegrationEvent
     public Guid TransacaoId { get; private set; }
     public decimal Total { get; private set; }
 
-    public PagamentoRealizadoEvent(
+    public PedidoPagamentoRealizadoEvent(
         Guid pedidoId,
         Guid clienteId,
         Guid pagamentoId,

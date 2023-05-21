@@ -1,8 +1,8 @@
-﻿using NerdStore.Core.Messages;
+﻿using MediatR;
 
-namespace NerdStore.Core.DomainObjects;
+namespace NerdStore.Core.Messages.CommonMessages.DomainEvents;
 
-public class DomainEvent : Event
+public class DomainEvent : Message, INotification
 {
     public DomainEvent(Guid aggregateId)
     {

@@ -41,7 +41,7 @@ public class PagamentoService : IPagamentoService
 
         if (transacao.StatusTransacao == StatusTransacao.Pago)
         {
-            pagamento.AdicionarEvento(new PagamentoRealizadoEvent(
+            pagamento.AdicionarEvento(new PedidoPagamentoRealizadoEvent(
                 pedido.Id,
                 pagamentoPedido.ClienteId,
                 transacao.PagamentoId,
@@ -59,7 +59,7 @@ public class PagamentoService : IPagamentoService
             .PublicarNotificacao(new DomainNotification("pagamento", "A operadora recusou o pagamento"));
         
         await _mediatorHandler
-            .PublicarEvento(new PagamentoRecusadoEvent(
+            .PublicarEvento(new PedidoPagamentoRecusadoEvent(
                 pedido.Id,
                 pagamentoPedido.ClienteId,
                 transacao.PagamentoId,
