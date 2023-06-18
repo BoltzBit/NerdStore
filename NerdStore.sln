@@ -46,6 +46,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcing", "src\EventSourcing\EventSourcing.csproj", "{722B0084-A418-42BF-9FE0-BA64F076C2BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{40727EDC-2963-42AF-8E87-C3673099837A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.WebApp.Tests", "tests\NerdStore.WebApp.Tests\NerdStore.WebApp.Tests.csproj", "{CDE87B88-AB97-4EAC-B260-2DC2B35D89CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +76,7 @@ Global
 		{B8B402A4-6303-4257-8C6E-6D69C8400DD4} = {3EC7CDA6-37AD-47D5-BA59-F1242E99C584}
 		{D3A162D3-1A64-48F9-91A7-C463AB777669} = {3EC7CDA6-37AD-47D5-BA59-F1242E99C584}
 		{722B0084-A418-42BF-9FE0-BA64F076C2BD} = {8E521247-D1BE-4E32-A6CF-B2EBFFAD2A28}
+		{CDE87B88-AB97-4EAC-B260-2DC2B35D89CA} = {40727EDC-2963-42AF-8E87-C3673099837A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{360AF7EE-8695-46F3-B6E4-6D8381C9D51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -126,5 +131,9 @@ Global
 		{722B0084-A418-42BF-9FE0-BA64F076C2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{722B0084-A418-42BF-9FE0-BA64F076C2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{722B0084-A418-42BF-9FE0-BA64F076C2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE87B88-AB97-4EAC-B260-2DC2B35D89CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE87B88-AB97-4EAC-B260-2DC2B35D89CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE87B88-AB97-4EAC-B260-2DC2B35D89CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE87B88-AB97-4EAC-B260-2DC2B35D89CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

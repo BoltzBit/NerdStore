@@ -1,0 +1,14 @@
+{
+  "EventSourcing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\EventSourcing",
+  "NerdStore.Catalogo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Catalogo.Application",
+  "NerdStore.Catalogo.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Catalogo.Data",
+  "NerdStore.Catalogo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Catalogo.Domain",
+  "NerdStore.Catalogo.WebApp.MVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Catalogo.WebApp.MVC",
+  "NerdStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Core",
+  "NerdStore.Pagamentos.AntiCorruption, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Pagamentos.AntiCorruption",
+  "NerdStore.Pagamentos.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Pagamentos.Business",
+  "NerdStore.Pagamentos.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Pagamentos.Data",
+  "NerdStore.Vendas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Vendas.Application",
+  "NerdStore.Vendas.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Vendas.Data",
+  "NerdStore.Vendas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\NerdStore.Vendas.Domain"
+}
