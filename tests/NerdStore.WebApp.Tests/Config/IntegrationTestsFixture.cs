@@ -1,6 +1,8 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Net.Http.Json;
+using System.Text.RegularExpressions;
 using Bogus;
 using Microsoft.AspNetCore.Mvc.Testing;
+using NerdStore.WebApp.MVC.Models;
 using Xunit;
 
 namespace NerdStore.WebApp.Tests.Config;
@@ -12,13 +14,20 @@ public class IntegrationTestsFixture<TProgram> : IDisposable where TProgram : cl
 
     public string UsuarioEmail;
     public string UsuarioSenha;
+    public string UsuarioToken;
     
     public readonly LojaAppFactory<TProgram> Factory;
     public HttpClient Client;
 
     public IntegrationTestsFixture()
     {
-        var options = new WebApplicationFactoryClientOptions();
+        var options = new WebApplicationFactoryClientOptions
+        {
+            AllowAutoRedirect = true,
+            BaseAddress = new Uri("http://localhost"),
+            HandleCookies = true,
+            MaxAutomaticRedirections = 7
+        };
         
         Factory = new LojaAppFactory<TProgram>();
         Client = Factory.CreateClient(options);
@@ -57,6 +66,21 @@ public class IntegrationTestsFixture<TProgram> : IDisposable where TProgram : cl
         };
 
         await Client.SendAsync(postRequest);
+    }
+
+    public async Task RealizarLoginApi()
+    {
+        var userData = new LoginViewModel
+        {
+            Email = "teste@teste.com",
+            Senha = "teste@teste2A"
+        };
+
+        Client = Factory.CreateClient();
+
+        var response = await Client.PostAsJsonAsync("api/login", userData);
+        response.EnsureSuccessStatusCode();
+        UsuarioToken = await response.Content.ReadAsStringAsync();
     }
 
     public void GerarUserSenha()

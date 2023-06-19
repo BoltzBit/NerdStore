@@ -19,7 +19,8 @@ public class CarrinhoController : ControllerBase
         IProdutoAppService produtoAppService,
         IMediatorHandler mediatorHandler,
         IPedidoQueries pedidoQueries,
-        INotificationHandler<DomainNotification> notifications) : base(notifications, mediatorHandler)
+        IHttpContextAccessor httpContextAccessor,
+        INotificationHandler<DomainNotification> notifications) : base(notifications, mediatorHandler, httpContextAccessor)
     {
         _produtoAppService = produtoAppService;
         _mediatorHandler = mediatorHandler;

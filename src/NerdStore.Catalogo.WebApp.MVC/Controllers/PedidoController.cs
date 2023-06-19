@@ -13,7 +13,8 @@ public class PedidoController : ControllerBase
     public PedidoController(
         IPedidoQueries pedidoQueries,
         INotificationHandler<DomainNotification> notifications,
-        IMediatorHandler mediatorHandler) : base(notifications, mediatorHandler)
+        IHttpContextAccessor httpContextAccessor,
+        IMediatorHandler mediatorHandler) : base(notifications, mediatorHandler, httpContextAccessor)
     {
         _pedidoQueries = pedidoQueries;
     }

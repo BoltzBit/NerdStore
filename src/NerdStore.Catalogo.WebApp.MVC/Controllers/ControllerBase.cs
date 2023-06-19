@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using System.Security.Claims;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using NerdStore.Core.Communication.Mediator;
 using NerdStore.Core.Messages.CommonMessages.Notifications;
@@ -14,10 +15,16 @@ public abstract class ControllerBase : Controller
 
     protected ControllerBase(
         INotificationHandler<DomainNotification> notifications,
-        IMediatorHandler mediatorHandler)
+        IMediatorHandler mediatorHandler,
+        IHttpContextAccessor httpContextAccessor)
     {
         _notifications = (DomainNotificationHandler)notifications;
         _mediatorHandler = mediatorHandler;
+        
+        if(!httpContextAccessor.HttpContext.User.Identity.IsAuthenticated) return;
+
+        var claim = httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
+        ClienteId = Guid.Parse(claim);
     }
 
     protected bool OperacaoValida()
@@ -37,5 +44,23 @@ public abstract class ControllerBase : Controller
     {
         _mediatorHandler
             .PublicarNotificacao(new DomainNotification(codigo, mensagem));
+    }
+    
+    protected new IActionResult Response(object result = null)
+    {
+        if (OperacaoValida())
+        {
+            return Ok(new
+            {
+                success = true,
+                data = result
+            });
+        }
+
+        return BadRequest(new
+        {
+            success = false,
+            errors = _notifications.ObterNotificacoes().Select(n => n.Value)
+        });
     }
 }

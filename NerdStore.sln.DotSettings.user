@@ -3,6 +3,7 @@
   &lt;Or&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
       &lt;TestId&gt;xUnit::EC72FFBA-B1E1-497E-B28A-E4D9D1B07AF6::net7.0::NerdStore.Catalogo.Domain.Tests.ProdutoTests&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::CDE87B88-AB97-4EAC-B260-2DC2B35D89CA::net7.0::NerdStore.WebApp.Tests.PedidoWebTests.AdicionarItem_NovoPedido_DeveAtualizarValorTotal&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
     &lt;ProjectFile&gt;CDE87B88-AB97-4EAC-B260-2DC2B35D89CA/f:UsuarioTests.cs&lt;/ProjectFile&gt;&#xD;
     &lt;ProjectFile&gt;CDE87B88-AB97-4EAC-B260-2DC2B35D89CA/d:Order/f:OrdemTestes.cs&lt;/ProjectFile&gt;&#xD;
