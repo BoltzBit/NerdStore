@@ -22,7 +22,7 @@ public class VitrineController : Controller
     }
 
     [HttpGet]
-    [Route("produto-detalhe/{id:int}")]
+    [Route("produto-detalhe/{id:guid}")]
     public async Task<IActionResult> ProdutoDetalhe(Guid id)
     {
         return View(await _produtoAppService.ObterPorId(id));

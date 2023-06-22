@@ -499,3 +499,4 @@ C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.WebApp.Tests\obj\Debug\net7.0\NerdStore.WebApp.Tests.pdb
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.WebApp.Tests\obj\Debug\net7.0\NerdStore.WebApp.Tests.genruntimeconfig.cache
 C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.WebApp.Tests\obj\Debug\net7.0\ref\NerdStore.WebApp.Tests.dll
+C:\Users\mateus.silva\pessoal\desenvolvedor_io\CursoArqSoft\Modelagem\NerdStore\tests\NerdStore.WebApp.Tests\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

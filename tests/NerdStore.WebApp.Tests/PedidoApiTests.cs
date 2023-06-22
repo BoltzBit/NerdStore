@@ -7,6 +7,7 @@ using Xunit;
 namespace NerdStore.WebApp.Tests;
 
 [TestCaseOrderer("NerdStore.WebApp.Tests.PriorityOrderer", "NerdStore.WebApp.Tests")]
+[Collection(nameof(IntegrationApiTestsFixtureCollection))]
 public class PedidoApiTests
 {
     private readonly IntegrationTestsFixture<Program> _testsFixture;

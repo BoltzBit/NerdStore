@@ -8,6 +8,9 @@ using Xunit;
 namespace NerdStore.WebApp.Tests.Config;
 [CollectionDefinition(nameof(IntegrationWebTestsFixtureCollection))]
 public class IntegrationWebTestsFixtureCollection : ICollectionFixture<IntegrationTestsFixture<Program>>{ }
+
+[CollectionDefinition(nameof(IntegrationApiTestsFixtureCollection))]
+public class IntegrationApiTestsFixtureCollection : ICollectionFixture<IntegrationTestsFixture<Program>> { }
 public class IntegrationTestsFixture<TProgram> : IDisposable where TProgram : class
 {
     public string AntiForgeryFieldName = "__RequestVerificationToken";

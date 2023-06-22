@@ -1,11 +1,24 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=88b805d1_002Df521_002D4de3_002Da190_002D47d4a27576d2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ProdutoTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=012a719b_002Daaff_002D4477_002D8aef_002D947bcc69657c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Adicionar item já existente no carrinho" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4D61F6B3-8323-45DE-A9F9-3837FF3CB301::net6.0::NerdStore.BDD.Tests.Features.Pedido_AdicionarItemAoCarrinhoFeature.AdicionarItemJaExistenteNoCarrinho&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=88b805d1_002Df521_002D4de3_002Da190_002D47d4a27576d2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ProdutoTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Or&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
       &lt;TestId&gt;xUnit::EC72FFBA-B1E1-497E-B28A-E4D9D1B07AF6::net7.0::NerdStore.Catalogo.Domain.Tests.ProdutoTests&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::CDE87B88-AB97-4EAC-B260-2DC2B35D89CA::net7.0::NerdStore.WebApp.Tests.PedidoWebTests.AdicionarItem_NovoPedido_DeveAtualizarValorTotal&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::CDE87B88-AB97-4EAC-B260-2DC2B35D89CA::net7.0::NerdStore.WebApp.Tests.PedidoApiTests.AdicionarItem_NovoPedido_DeveRetornarComSucesso&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::4D61F6B3-8323-45DE-A9F9-3837FF3CB301::net6.0::NerdStore.BDD.Tests.Features.Pedido_AdicionarItemAoCarrinhoFeature.AdicionarItemComSucessoAUmNovoPedido&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
     &lt;ProjectFile&gt;CDE87B88-AB97-4EAC-B260-2DC2B35D89CA/f:UsuarioTests.cs&lt;/ProjectFile&gt;&#xD;
     &lt;ProjectFile&gt;CDE87B88-AB97-4EAC-B260-2DC2B35D89CA/d:Order/f:OrdemTestes.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;CDE87B88-AB97-4EAC-B260-2DC2B35D89CA/f:PedidoApiTests.cs&lt;/ProjectFile&gt;&#xD;
   &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ab2d812d_002D5186_002D4bd1_002Dba5b_002D1e42a94323b1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Adicionar item com sucesso a um novo pedido" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4D61F6B3-8323-45DE-A9F9-3837FF3CB301::net6.0::NerdStore.BDD.Tests.Features.Pedido_AdicionarItemAoCarrinhoFeature.AdicionarItemComSucessoAUmNovoPedido&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -9,6 +9,9 @@ using NerdStore.Vendas.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//Parta disso
+var teste = builder.Configuration.GetSection("Token:Secret");
+
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
                        throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
