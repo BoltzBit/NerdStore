@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tUCbXa8nJomeTRzt5sRA7ePN8CvhtiBsnNN+frlDrJp5DOXcVJJ7iVHLwhyffny6apzKqzqPRIY4VUciKyPAcw==",
+  "dgSpecHash": "Y4qDAEWIlIHpNDxAcIoB2beEUab/bj9LA4CqHeRfnpxSYCclXhuCD1JaN8Xtuf5FS5Odvc8b5S/wIvZ778s0hQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\src\\EventSourcing\\EventSourcing.csproj",
   "expectedPackageFiles": [
