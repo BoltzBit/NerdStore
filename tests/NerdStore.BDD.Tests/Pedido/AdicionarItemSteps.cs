@@ -1,4 +1,4 @@
-﻿namespace NerdStore.BDD.Tests.Steps;
+﻿namespace NerdStore.BDD.Tests.Pedido;
 
 [Binding]
 public sealed class AdicionarItemSteps

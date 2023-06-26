@@ -27,7 +27,17 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Pedido" />
+      <Folder Include="Features" />
+      <Folder Include="Steps" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Pedido\AdicionarItem.feature.cs">
+        <DependentUpon>AdicionarItem.feature</DependentUpon>
+        <AutoGen>true</AutoGen>
+        <DesignTime>true</DesignTime>
+        <Visible>true</Visible>
+      </Compile>
     </ItemGroup>
 
 </Project>
