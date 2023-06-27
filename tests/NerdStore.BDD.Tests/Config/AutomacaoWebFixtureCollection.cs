@@ -1,18 +1,28 @@
-﻿using Xunit;
+﻿using Bogus;
+using Xunit;
 
 namespace NerdStore.BDD.Tests.Config;
 
 [CollectionDefinition(nameof(AutomacaoWebFixtureCollection))]
-public class AutomacaoWebFixtureCollection : ICollectionFixture<AutomacaoWebTestsCollection> {}
+public class AutomacaoWebFixtureCollection : ICollectionFixture<AutomacaoWebTestsFixture> {}
 
-public class AutomacaoWebTestsCollection
+public class AutomacaoWebTestsFixture
 {
     public readonly ConfigurationHelper Configuration;
     public SeleniumHelper BrowserHelper;
+    public Usuario.Usuario Usuario;
 
-    public AutomacaoWebTestsCollection()
+    public AutomacaoWebTestsFixture()
     {
+        Usuario = new Usuario.Usuario();
         Configuration = new ConfigurationHelper();
         BrowserHelper = new SeleniumHelper(Browser.Chrome, Configuration);
+    }
+
+    public void GerarDadosUsuario()
+    {
+        var faker = new Faker("pt_BR");
+        Usuario.Email = faker.Internet.Email().ToLower();
+        Usuario.Senha = faker.Internet.Password(8, false, "", "@1Ab_");
     }
 }

@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace NerdStore.BDD.Tests.Features
+namespace NerdStore.BDD.Tests.Pedido
 {
     using TechTalk.SpecFlow;
     using System;
@@ -40,7 +40,7 @@ namespace NerdStore.BDD.Tests.Features
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt-BR"), "Features", "Pedido - Adicionar Item ao Carrinho", "Como um usuário\r\nEu desejo colocar um item no carrinho\r\nPara que eu possa comprá-" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt-BR"), "Pedido", "Pedido - Adicionar Item ao Carrinho", "Como um usuário\r\nEu desejo colocar um item no carrinho\r\nPara que eu possa comprá-" +
                     "lo posteriormente", ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }

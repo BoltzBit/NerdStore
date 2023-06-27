@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "o1i9xRC/cEuoiKJxRO0Sh+5cSR7XLrmnuQi+NhASZWuyi45Aj9mQRzzfLpPvz1RNMbaXkzcAr0Xn8SJr6IOyrQ==",
+  "dgSpecHash": "2g4uYoiLlaIR65IK8Zm1HWFplyPnsSwrIGC4qLquqg+dMsQIDJFkMnH7LkdiM1a39e05w9/vm0zexIT8dZoXlQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateus.silva\\pessoal\\desenvolvedor_io\\CursoArqSoft\\Modelagem\\NerdStore\\tests\\NerdStore.BDD.Tests\\NerdStore.BDD.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateus.silva\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
+    "C:\\Users\\mateus.silva\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\fluentassertions\\6.11.0\\fluentassertions.6.11.0.nupkg.sha512",
     "C:\\Users\\mateus.silva\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
