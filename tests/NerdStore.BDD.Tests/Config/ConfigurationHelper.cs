@@ -14,6 +14,7 @@ public class ConfigurationHelper
     public string DomainUrl => _config.GetSection("DomainUrl").Value;
     public string VitriniUrl => _config.GetSection("VitrineUrl").Value;
     public string ProdutoUrl => $"{DomainUrl}{_config.GetSection("CarrinhoUrl").Value}";
+    public string CarrinhoUrl => $"{DomainUrl}{_config.GetSection("CarrinhoUrl").Value}";
     public string RegisterUrl => $"{DomainUrl}{_config.GetSection("RegisterUrl").Value}";
     public string LoginUrl => $"{DomainUrl}{_config.GetSection("LoginUrl").Value}";
     public string WebDrivers => _config.GetSection("WebDrivers").Value;
