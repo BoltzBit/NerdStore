@@ -10,7 +10,7 @@ namespace NerdStore.BDD.Tests.Usuario;
 
 [Binding]
 [CollectionDefinition(nameof(AutomacaoWebFixtureCollection))]
-public sealed class CadastroUsuarioSteps
+public class CadastroUsuarioSteps
 {
     private readonly CadastroUsuarioTela _cadastroUsuarioTela;
     private readonly AutomacaoWebTestsFixture _testsFixture;
