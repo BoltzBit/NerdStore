@@ -51,4 +51,10 @@ public class LoginUsuarioSteps
         //Assert
         Assert.True(_loginUsuarioTela.ValidarPreenchimentoFormularioLogin(usuario));
     }
+
+    [When(@"Clicar no botão login")]
+    public void WhenClicarNoBotaoLogin()
+    {
+        _loginUsuarioTela.ClicarNoBotaoLogin();
+    }
 }
